@@ -1,0 +1,114 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Main Header Section */
+.main-header {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 30rem;
+}
+
+.main-header h1 {
+    padding-top: 8rem;
+}
+
+.btn-primary {
+    background-color: #801515;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #550000;
+}
+
+.portfolio-button {
+    text-align: center;
+    padding-top: 2rem;
+    
+}
+
+
+/* MEDIA QUERIES */
+@media (min-width: 992px) { 
+    .main-header h1 {
+        padding-top: 8rem;
+    }
+    div.skill {
+        padding-bottom: 1rem;
+    }
+ }
+
+ @media (max-width: 576px) { 
+     .main-header h1 {
+         padding-top: 6rem;
+         font-size: 3.5rem;
+     }
+
+     .skills-section h1 {
+         font-size: 3rem;
+     }
+
+     i.fa-html5::before {
+         font-size: 3rem;
+     }
+     .portfolio-button {
+         padding-bottom: 5rem;
+     }
+  }
+
+  @media (min-width: 1200px) { 
+      .skills-section {
+          height: 26rem;
+      }
+  }
+
+
+/* SKILLS SECTION */
+
+.skills-section h1 {
+    padding-top: 2rem;
+}
+
+.skills-section i {
+    font-size: 4rem;
+    color: #801515;
+}
+
+.caption {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 2rem;
+    
+}
+
+.skill {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+
+/* ABOUT SECTION */
+.about-section {
+    height: 35rem;
+    background-color: #801515;
+    color: #FFF;
+}
+
+.about-section h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.about-card {
+    text-align: center;
+}
+
+.about-card img {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    border: .125rem solid #FFF;
+}
